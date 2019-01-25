@@ -1,4 +1,4 @@
-package entity;
+package tables;
 
 import java.util.Objects;
 
@@ -89,7 +89,7 @@ public class Users {
 
     @Override
     public String toString() {
-        return "Users{" +
+        return "tables.Users{" +
                 "user_id=" + user_id +
                 ", email='" + email + '\'' +
                 ", password='" + password + '\'' +
