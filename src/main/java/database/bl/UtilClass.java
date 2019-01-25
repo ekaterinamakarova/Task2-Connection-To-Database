@@ -1,8 +1,10 @@
+package database.bl;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class Util {
+public class UtilClass {
 
     private static final String DB_DRIVER="org.postgresql.Driver";
     private static final String DB_URL="jdbc:postgresql://192.168.1.56:5432/dgroops_new";
