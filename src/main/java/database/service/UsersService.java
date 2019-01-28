@@ -15,7 +15,6 @@ public class UsersService extends UtilClass implements UsersDAO{
 
     @Override
     public Users getNameAndPassword() throws SQLException {
-        PreparedStatement preparedStatement = null;
         String sql = "SELECT name, password FROM users";
 
         Users users = new Users();
