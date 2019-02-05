@@ -7,9 +7,9 @@ import java.sql.SQLException;
 public class UtilClass {
 
     private static final String DB_DRIVER="org.postgresql.Driver";
-    private static final String DB_URL="jdbc:postgresql://192.168.1.56:5432/dgroops_new";
-    private static final String DB_USERNAME="dgroops_user";
-    private static final String DB_PASSWORD="dgroops_pass";
+    private static final String DB_URL="___________________";
+    private static final String DB_USERNAME="____________";
+    private static final String DB_PASSWORD="______________";
 
     public Connection getConnection(){
         Connection connection=null;
